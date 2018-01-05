@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "lib": ["esnext", "dom"],
+    "declaration": true,
+    "noEmitHelpers": false,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "jsx": "preserve"
+  },
+  "exclude": [
+    "node_modules/"
+  ],
+  "include": [
+    "./src/**/*.ts",
+    "./types/**/*.d.ts"
+  ]
+}
